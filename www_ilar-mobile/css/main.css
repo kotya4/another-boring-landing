@@ -1,0 +1,1189 @@
+.main {
+  background: white;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  /*scroll-snap-type: y mandatory;*/
+  scroll-snap-type: y proximity;
+}
+
+.main__screen {
+  height: 100%;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__screen-0 {
+
+}
+
+.main__screen-0__container {
+  position: relative;
+  background-image: url('../img/beautiful-family-faces-H6FW7PE@1X.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  height: 75%;
+  width: 100%;
+}
+
+.main__screen-0__container__content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.main__screen-0__container__content__color {
+  background: #4B18A9;
+  opacity: 0.8;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: inherit;
+  height: inherit;
+}
+
+.main__screen-0__container__content__text-head {
+  color: #FFFFFF;
+  font-size: 4vw;
+  padding: 3vh 5vw;
+  position: relative;
+}
+
+.main__screen-0__container__content__text-desc {
+  color: #FFFFFF;
+  font-size: 1.25vw;
+  padding: 3vh 5vw;
+  position: relative;
+}
+
+.main__screen-0__container__content__text-desc > div {
+  margin-top: 4vh;
+}
+
+.main__screen-0__container__content__buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 3vh 5vw;
+  position: absolute;
+  bottom: 10vh;
+}
+
+.main__screen-0__container__content__buttons__button {
+  color: #8635F0;
+  user-select: none;
+  cursor: pointer;
+  background: white;
+  font-size: 1.25vw;
+  border-radius: 2.5vw;
+  width: 15vw;
+  height: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__screen-0__container__content__buttons__icon {
+  position: relative;
+  background-image: url('../img/Вычитание 1.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 2vh;
+  height: 2vh;
+  position: relative;
+  margin-left: 5vw;
+  margin-right: 1vw;
+}
+
+.main__screen-0__container__content__buttons__text {
+  color: #FFFFFF;
+  font-size: 1vw;
+  position: relative;
+}
+
+.main__screen-0__container__arrow {
+  background-image: url('../img/Icon ionic-ios-arrow-round-down.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 1vw;
+  height: 7vw;
+  position: relative;
+  bottom: 20%;
+  left: 80%;
+  position: absolute;
+  bottom: 10vh;
+}
+
+/* mobile */
+
+.main__screen-0 {
+  flex-direction: column;
+}
+
+.main__screen-0__head {
+  width: 90vw;
+  padding: 0 5vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.main__screen-0__head__text {
+  background-image: url('../img/Контур 1.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 15vh;
+  height: 3vh;
+}
+
+.main__screen-0__head__phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__screen-0__head__phone__icon {
+  background-image: url('../img/Icon awesome-phone-alt.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 2vh;
+  height: 2vh;
+  margin-right: 2em;
+}
+
+.main__screen-0__head__phone__text {
+  color: #100246;
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.main__screen-0__head__button {
+  width: 6vh;
+  height: 6vh;
+  border-radius: 3vh;
+  background: #F6F3FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.main__screen-0__head__button__icon {
+  width: 35%;
+  height: 35%;
+}
+
+.main__screen-0__head__button__icon > div {
+  margin: 20% 0;
+  width: 100%;
+  height: 10%;
+  background: #4C18AA;
+}
+
+.main__screen-0__container {
+  background-size: auto 100%;
+  height: 90vh;
+}
+
+.main__screen-0__container__content__text-head {
+  font-size: 4vh;
+  line-height: 1.5em;
+  padding: 3vh 5vw 2vh 5vw;
+
+}
+
+.main__screen-0__container__content__text-desc {
+  font-size: 2.25vh;
+  padding: 0vh 5vw;
+  line-height: 0.6em;
+}
+
+.main__screen-0__container__content__buttons {
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  top: 8vh;
+}
+
+.main__screen-0__container__content__buttons__button {
+  font-size: 1.5vh;
+  border-radius: 3.5vh;
+  font-weight: bold;
+  width: 20vh;
+  height: 7vh;
+}
+
+.main__screen-0__container__content__buttons__text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.main__screen-0__container__content__buttons__icon {
+  margin-left: 0;
+  margin-right: 2em;
+  width: 3vh;
+  height: 3vh;
+}
+
+.main__screen-0__container__content__buttons__text {
+  font-size: 2vh;
+}
+
+.main__screen-0__container__arrow {
+  width: 2vh;
+  height: 14vh;
+  bottom: 2vh;
+  left: 4vw;
+}
+
+/* */
+
+.main__screen-1 {
+  margin: 0 5vw;
+  justify-content: space-around;
+}
+
+.main__screen-1__content {
+  width: 40vw;
+  height: 40vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.main__screen-1__content__text--head {
+  color: #100246;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.main__screen-1__content__text--body {
+  color: #A6ABBD;
+  font-size: 1.5vw;
+}
+
+.main__screen-1__content__icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__screen-1__content__icons__text--head {
+  color: #100246;
+  font-size: 1.5vw;
+  font-weight: bold;
+  margin: 1.5vw 0;
+}
+
+.main__screen-1__content__icons__text--body {
+  color: #A6ABBD;
+  font-size: 1.2vw;
+  width: 20vw;
+}
+
+.main__screen-1__content__icons__icon {
+  background-image: url('../img/Контур 363.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  width: 7vw;
+  height: 7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__screen-1__content__icons__icon__image {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  width: 60%;
+  height: 60%;
+}
+
+.main__screen-1__content__icons__icon__image--brain {
+  background-image: url('../img/Brain.svg');
+}
+
+.main__screen-1__content__icons__icon__image--tooth {
+  background-image: url('../img/Tooth, stomatology, implant.svg');
+}
+
+.main__screen-1__image {
+  background-image: url('../img/dentsy_лэндинг_визуалы_что-это@1X.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  width: 40vw;
+  height: 40vw;
+}
+
+/* mobile */
+
+.main__screen-1 {
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  justify-content: flex-end;
+  height: 165%;
+}
+
+
+.main__screen-1__content {
+  width: 45vh;
+  height: 40vh;
+}
+
+.main__screen-1__content__text--head {
+  font-size: 2.5vh;
+  margin-bottom: 8vh;
+}
+
+.main__screen-1__content__text--body {
+  font-size: 2vh;
+  letter-spacing: 0.15em;
+  line-height: 2.4em;
+  margin-bottom: 4vh;
+  /*font-weight: bold;*/
+}
+
+.main__screen-1__content__icons {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.main__screen-1__content__icons__text--head {
+  font-size: 2.5vh;
+  margin: 2.5vh 0;
+}
+
+.main__screen-1__content__icons__text--body {
+  font-size: 2.2vh;
+  letter-spacing: 0.1em;
+  width: 90vw;
+  margin-bottom: 8vh;
+}
+
+.main__screen-1__content__icons__icon {
+  width: 12vh;
+  height: 12vh;
+}
+
+.main__screen-1__image {
+  width: 40vh;
+  height: 40vh;
+  margin-top: 10vh;
+  margin-bottom: 3vh;
+}
+
+/* */
+
+.main__screen-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main__screen-2__video-placeholder {
+  background-image: url('../img/male-doctor-or-dentist-writing-report-working-with-G7UDRYE@1X.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  width: 85vw;
+  height: 40vw;
+  border-radius: 4vw;
+  cursor: pointer;
+}
+
+.main__screen-2__video-placeholder__cover {
+  background: #8635F0;
+  opacity: 0.6;
+  border-radius: inherit;
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__screen-2__video-placeholder__cover__image {
+  background-image: url('../img/Сгруппировать 25.svg');
+  background-repeat: no-repeat;
+  background-size: 99% 99%;
+  background-position: center;
+  width: 10vw;
+  height: 10vw;
+}
+
+.main__screen-2__text-container {
+  margin-top: 2vw;
+  width: 85vw;
+}
+
+.main__screen-2__text-container__text {
+  width: 60vw;
+  color: #9CA9B4;
+  font-size: 1.2vw;
+  line-height: 2vw;
+}
+
+/* mobile */
+
+.main__screen-2__video-placeholder {
+  background-size: 150% 150%;
+  width: 100%;
+  height: 40%;
+  border-radius: 0;
+}
+
+.main__screen-2__video-placeholder__cover {
+  width: 100%;
+  height: 100%;
+}
+
+.main__screen-2__video-placeholder__cover__image {
+  width: 30vw;
+  height: 30vw;
+}
+
+.main__screen-2__text-container {
+  margin-top: 0.3vw;
+  width: 90%;
+}
+
+.main__screen-2__text-container__text {
+  width: 100%;
+  font-size: 2.2vh;
+  line-height: 2em;
+  /*font-weight: bold;*/
+}
+
+/* */
+
+.main__screen-3 {
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  display: block;
+  padding-left: 4vw;
+  padding-top: 4vw;
+}
+
+.main__screen-3__container {
+  display: flex;
+  height: 80%;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  width: 90vw;
+  position: relative;
+}
+
+.main__screen-3__text {
+  color: #100246;
+  font-size: 3.5vh;
+  margin-bottom: 3vh;
+  width: 100%;
+  text-align: center;
+}
+
+.main__screen-3__container__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 90vw;
+  height: 40vh;
+}
+
+.main__screen-3__container__content__data {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.main__screen-3__container__content__data__text--head {
+  color: #100246;
+  font-size: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.main__screen-3__container__content__data__text--desc {
+  color: #9CA9B4;
+  font-size: 2vh;
+  margin-bottom: 4vh;
+}
+
+.main__screen-3__container__content__data__text--body {
+  color: #100246;
+  font-size: 2vh;
+  margin-bottom: 4vh;
+  width: 100%;
+  line-height: 2em;
+}
+
+.main__screen-3__container__content__data__instagram {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.main__screen-3__container__content__data__instagram__icon {
+  background-image: url('../img/Icon awesome-instagram.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  width: 2vh;
+  height: 2vh;
+  margin-right: 1vh;
+}
+
+.main__screen-3__container__content__data__instagram__text {
+  color: #4B18A9;
+  font-size: 2vh;
+}
+
+.main__screen-3__container__content__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.main__screen-3__container__content__buttons__button {
+  cursor: pointer;
+  background: #F6F3FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7vh;
+  height: 7vh;
+  border-radius: 3.5vh;
+  margin-right: 3.5vh;
+}
+
+.main__screen-3__container__content__buttons__button.disabled {
+  background: #F6F3FF;
+}
+
+.main__screen-3__container__content__buttons__button.active {
+  background: #4C18AA;
+}
+
+.main__screen-3__container__content__buttons__button__left {
+  background-image: url('../img/Icon ionic-ios-arrow-forward.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 35%;
+  height: 35%;
+}
+
+.main__screen-3__container__content__buttons__button__right {
+  background-image: url('../img/Icon ionic-ios-arrow-forward.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 35%;
+  height: 35%;
+  transform: scaleX(-1);
+}
+
+.main__screen-3__container__content__buttons__button__left.active {
+  background-image: url('../img/Icon ionic-ios-arrow-forward-active.svg');
+}
+
+.main__screen-3__container__content__buttons__button__right.active {
+  background-image: url('../img/Icon ionic-ios-arrow-forward-active.svg');
+}
+
+.main__screen-3__container__image {
+  background-image: url('../img/Изображение 29@1X.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 50% 0;
+  width: 30vh;
+  height: 30vh;
+  border-radius: 4vh;
+}
+
+.main__screen-3__container__image--cat-1 {
+  background-image: url('../img/1196035-128.jpg');
+}
+
+.main__screen-3__container__image--cat-2 {
+  background-image: url('../img/1482873-128.jpg');
+}
+
+.main__screen-3--left {
+  transform: translateX(-100vw);
+}
+
+.main__screen-3--right {
+  transform: translateX(+100vw);
+}
+
+.main__screen-3__animation--move-from-0-to-left {
+  animation-name: main__screen-3__keyframes--move-from-0-to-left;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.main__screen-3__animation--move-from-left-to-0 {
+  animation-name: main__screen-3__keyframes--move-from-left-to-0;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.main__screen-3__animation--move-from-0-to-right {
+  animation-name: main__screen-3__keyframes--move-from-0-to-right;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.main__screen-3__animation--move-from-right-to-0 {
+  animation-name: main__screen-3__keyframes--move-from-right-to-0;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes main__screen-3__keyframes--move-from-0-to-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100vw);
+  }
+}
+
+@keyframes main__screen-3__keyframes--move-from-left-to-0 {
+  from {
+    transform: translateX(-100vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes main__screen-3__keyframes--move-from-0-to-right {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(+100vw);
+  }
+}
+
+@keyframes main__screen-3__keyframes--move-from-right-to-0 {
+  from {
+    transform: translateX(+100vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* */
+
+.main__screen-4 {
+  justify-content: center;
+  flex-direction: column;
+  height: 200%;
+  padding-top: 4vh;
+}
+
+.main__screen-4__text {
+  color: #100246;
+  font-size: 3.5vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  width: 100%;
+  text-align: center;
+}
+
+.main__screen-4__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5vw;
+  height: 100%;
+  width: 90vw;
+  display: block;
+}
+
+.main__screen-4__container__image {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 90vw;
+  display: flex;
+  margin-bottom: 4vh;
+  height: auto;
+}
+
+.main__screen-4__container__image__image {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 100% 100%;
+  width: 30vh;
+  height: 30vh;
+  border-radius: 4vh;
+  margin-top: 4vh;
+  margin-bottom: 3vh;
+}
+
+.main__screen-4__container__image__image--0 {
+  background-image: url('../img/highly-qualified-dentist-using-modern-technologies-683BDH2@1X.png');
+}
+
+.main__screen-4__container__image__image--1 {
+  background-image: url('../img/Группа масок 30@1X.png');
+}
+
+.main__screen-4__container__image__image--2 {
+  background-image: url('../img/Сгруппировать 2594@1X.png');
+}
+
+.main__screen-4__container__image__text--head {
+  color: #4C18AA;
+  font-size: 2vh;
+  width: 100%;
+  margin-bottom: 3vh;
+}
+
+.main__screen-4__container__image__text--bold {
+  color: #100246;
+  font-size: 1.5vw;
+  font-weight: bold;
+  width: 20vw;
+  font-size: 2vh;
+  width: 100%;
+  margin-bottom: 3vh;
+}
+
+.main__screen-4__container__image__text--desc {
+  color: #A6ABBD;
+  font-size: 1.75vh;
+  width: 100%;
+}
+
+/* */
+
+.main__separator {
+  background: #4B18A9;
+  width: 90%;
+  height: 0.2vh;
+  margin: 0 5% 6vh 5%;
+}
+
+/* */
+
+.main__screen-5 {
+  display: block;
+  min-height: 100%;
+  height: auto;
+}
+
+.main__screen-5__text {
+  color: #100246;
+  font-size: 3.5vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+}
+
+.main__screen-5__container {
+
+}
+
+.main__screen-5__container__note {
+  width: 100%;
+  box-shadow: 0.15vh 1.35vh 4.3vh -1.7vh grey;
+  margin: 3.5vh 0;
+  padding: 1vh 0;
+}
+
+.main__screen-5__container__note__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5vw;
+}
+
+.main__screen-5__container__note__head__text {
+  color: #100246;
+  font-size: 1.5vh;
+  font-size: 2vh;
+  width: 70%;
+}
+
+.main__screen-5__container__note__head__button {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F6F3FF;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 3vh;
+}
+
+.main__screen-5__container__note__head__button--opened {
+  background: #4C18AA;
+}
+
+.main__screen-5__container__note__head__button__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+}
+
+.main__screen-5__container__note__head__button__icon__horisontal {
+  background: #4C18AA;
+  width: 50%;
+  height: 15%;
+  position: relative;
+  left: 25%;
+}
+
+.main__screen-5__container__note__head__button__icon__vertical {
+  background: #4C18AA;
+  width: 50%;
+  height: 15%;
+  transform: rotate(90deg);
+  position: relative;
+  left: -25%;
+}
+
+.main__screen-5__container__note__head__button__icon__horisontal--opened {
+  background: #F6F3FF;
+}
+
+.main__screen-5__container__note__head__button__icon__vertical--opened {
+  background: #F6F3FF;
+  transform: rotate(0deg);
+}
+
+.main__screen-5__container__note__desc {
+  display: none;
+}
+
+.main__screen-5__container__note__desc--opened {
+  display: block;
+}
+
+.main__screen-5__container__note__desc__text {
+  color: #A6ABBD;
+  font-size: 1.75vh;
+  margin: 1.5vh 5vw;
+  line-height: 1.5em;
+  width: 70%;
+}
+
+/* */
+
+.main__screen-6 {
+  display: block;
+  width: 100%;
+}
+
+.main__screen-6__content {
+  position: relative;
+  height: 35vh;
+  background: linear-gradient(90deg, rgba(76,25,170,1) 36%, rgba(146,59,254,1) 120%);
+  padding: 8vw 0 0 10vw;
+}
+
+.main__screen-6__content__image {
+  background-image: url('../img/Сгруппировать 155.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 100% 100%;
+  width: 30vh;
+  height: 30vh;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+
+.main__screen-6__content__text-head {
+  color: #FFFFFF;
+  font-size: 4vw;
+  position: relative;
+}
+
+.main__screen-6__content__text-desc {
+  color: #FFFFFF;
+  font-size: 1.25vw;
+  position: relative;
+  margin: 3vh 0 7vh 0;
+}
+
+.main__screen-6__content__form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 80%;
+}
+
+.main__screen-6__content__form input {
+  border: none;
+  background: #923bfe;
+  color: white;
+  font-size: 1.5vw;
+  width: 20vw;
+  border-radius: 1.25vw;
+  height: 5vw;
+  outline: none;
+}
+
+.main__screen-6__content__form input::placeholder {
+  color: white;
+}
+
+.main__screen-6__content__form input[type=text] {
+  padding-left: 2.5vw;
+}
+
+.main__screen-6__content__form input[type=tel] {
+  padding-left: 2.5vw;
+}
+
+.main__screen-6__content__form input[type=submit] {
+  background: #FFFFFF;
+  color: #4B18A9;
+  font-size: 1.5vw;
+  width: 20vw;
+  border-radius: 2.5vw;
+  height: 5vw;
+  cursor: pointer;
+}
+
+.main__screen-6__text {
+  color: #100246;
+  font-size: 3vw;
+  text-align: center;
+  margin-top: 3vh;
+}
+
+/* mobile */
+
+.main__screen-6__content {
+  height: 65vh;
+  padding: 8vh 5vw;
+}
+
+.main__screen-6__content__image {
+  width: 60vh;
+  height: 60vh;
+  transform: translate(-50%, 0%);
+  left: 0;
+  top: 10vh;
+}
+
+.main__screen-6__content__text-head {
+  font-size: 5vh;
+  line-height: 1.5em;
+}
+
+.main__screen-6__content__text-desc {
+  font-size: 2.25vh;
+  line-height: 2em;
+  width: 80%;
+  margin: 3vh 0 7vh 0;
+}
+
+.main__screen-6__content__form {
+  flex-direction: column;
+  width: 100%;
+}
+
+.main__screen-6__content__form input {
+  font-size: 2.25vh;
+  width: 100%;
+  border-radius: 2.5vh;
+  height: 8vh;
+  margin-bottom: 4vh;
+}
+
+.main__screen-6__content__form input[type=text] {
+  padding-left: 5vw;
+}
+
+.main__screen-6__content__form input[type=tel] {
+  padding-left: 5vw;
+}
+
+.main__screen-6__content__form input[type=submit] {
+  font-size: 2.25vh;
+  width: 100%;
+  border-radius: 4vh;
+  height: 8vh;
+}
+
+.main__screen-6__text {
+  font-size: 4vh;
+  margin-top: 6vh;
+}
+
+/* */
+
+.main__screen-7 {
+  background: #F6F3FF;
+  display: block;
+  height: 130%;
+}
+
+.main__screen-7__head {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 3vh 0 0 5vw;
+}
+
+.main__screen-7__head__icon {
+  background-image: url('../img/Вычитание 2.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 100% 100%;
+  width: 6.5vh;
+  height: 7vh;
+  margin-right: 4vw;
+}
+
+.main__screen-7__head__text {
+  background-image: url('../img/Контур 1 (1).svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 100% 100%;
+  width: 20vh;
+  height: 10vh;
+}
+
+.main__screen-7__head-desc {
+  color: #A6ABBD;
+  font-size: 2vh;
+  width: 50vw;
+  line-height: 2em;
+  padding: 0 0 4vh 5vw;
+}
+
+.main__screen-7__link {
+  font-size: 3vh;
+  margin: 2vh 5vw;
+  cursor: pointer;
+  user-select: none;
+}
+
+.main__screen-7__button {
+  cursor: pointer;
+  user-select: none;
+  font-size: 2.5vh;
+  width: 90%;
+  height: 8vh;
+  margin: 5vh 0 0 5vw;
+  background: linear-gradient(90deg, rgba(76,25,170,1) 36%, rgba(146,59,254,1) 100%);
+  border-radius: 4vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__screen-7__separator {
+  background: #4B18A9;
+  width: 90vw;
+  height: 0.2vh;
+  margin: 7vh 5vw 7vh 5vw;
+}
+
+.main__screen-7__text {
+  margin-left: 5vw;
+  margin-bottom: 2vh;
+  color: #A6ABBD;
+  width: 80vw;
+  font-size: 2vh;
+  line-height: 1.5em;
+}
+
+.main__screen-7__text--offset {
+  margin-bottom: 7vh;
+}
+
+.main__screen-7__text--bold {
+  color: #100246;
+  font-weight: bold;
+}
+
+.main__screen-7__icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 5vw;
+  margin-bottom: 5vh;
+}
+
+.main__screen-7__icons__icon {
+  background: linear-gradient(90deg, rgba(76,25,170,1) 36%, rgba(146,59,254,1) 100%);
+  width: 6vh;
+  height: 6vh;
+  border-radius: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5vw;
+}
+
+.main__screen-7__icons__icon__image {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 100% 100%;
+  width: 40%;
+  height: 40%;
+}
+
+.main__screen-7__icons__icon__image--vk {
+  background-image: url('../img/Icon awesome-vk.svg');
+  width: 40%;
+  height: 25%;
+}
+
+.main__screen-7__icons__icon__image--insta {
+  background-image: url('../img/Icon awesome-instagram (1).svg');
+}
+
+.main__screen-7__icons__icon__image--youtube {
+  background-image: url('../img/Icon awesome-youtube.svg');
+}
+
+.main__screen-7__text-container {
+  margin-left: 5vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main__screen-7__text-container__text {
+  color: #100246;
+  font-size: 2vh;
+  color: #A6ABBD;
+  margin-right: 1vh;
+}
+
+.main__screen-7__text-container__text--bold {
+  color: #100246;
+  font-weight: bold;
+}

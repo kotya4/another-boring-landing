@@ -1,0 +1,207 @@
+.write {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  display: none;
+}
+
+.write--opened {
+  display: flex;
+}
+
+.write__back {
+  width: 100%;
+  height: 100%;
+  background: #4C18AA;
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.write__container {
+  width: 80vw;
+  height: 60vh;
+  background: white;
+  border-radius: 4vh;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.write__container__hat {
+  width: 90%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.write__container__hat__text {
+  color: #100246;
+  font-size: 4vh;
+}
+
+.write__container__form__block__text--blank {
+  opacity: 0;
+}
+
+.write__container__hat__button-close {
+  background: #F6F3FF;
+  width: 4vh;
+  height: 4vh;
+  border-radius: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.write__container__hat__button-close__icon {
+  background-image: url('../img/Icon feather-menu.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 100% 100%;
+  width: 30%;
+  height: 30%;
+}
+
+.write__container__form {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.write__container__form__block {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 40%;
+}
+
+.write__container__form__block input {
+  border: none;
+  background: #F6F3FF;
+  color: #100246;
+  font-size: 1.5vh;
+  border-radius: 1.25vh;
+  outline: none;
+  height: 5.5vh;
+  width: 100%;
+  padding: 0 1em;
+  font-weight: bold;
+}
+
+.write__container__form__block input[type=submit] {
+  background: linear-gradient(90deg, rgba(76,25,170,1) 36%, rgba(146,59,254,1) 100%);
+  color: #FFFFFF;
+  font-size: 1.5vh;
+  width: 25vh;
+  border-radius: 2.5vh;
+  cursor: pointer;
+}
+
+.write__container__form__block input[type="date"] {
+  /*margin-top: 1em;*/
+}
+.write__container__form__block input[type="date"]:before {
+  content: attr(placeholder) !important;
+  margin-right: 1em;
+  color: #4C18AA;
+  font-weight: bold;
+}
+.write__container__form__block input[type="date"]:focus:before,
+.write__container__form__block input[type="date"]:valid:before {
+  content: "";
+}
+
+.write__container__form__block input[type="text"] {
+  color: #100246;
+  font-weight: bold;
+}
+.write__container__form__block input[type="text"]::placeholder {
+  color: #4C18AA;
+}
+
+.write__container__form__block input[type="checkbox"] {
+  background: #F6F3FF;
+  outline: none;
+  border: none;
+  width: 2vh;
+  height: 2vh;
+}
+
+.write__container__form__block__select {
+  width: 100%;
+  position: relative;
+}
+
+.write__container__form__block__select__title {
+  color: #4C18AA;
+  font-size: 1vh;
+  position: absolute;
+  left: 2vh;
+  top: 1vh;
+}
+
+/*
+.write__container__form__block__select__title--bold {
+  font-size: 1.5vh;
+  font-weight: bold;
+  top: 1.75vh;
+}
+*/
+
+.write__container__form__block select {
+  border: none;
+  background: #F6F3FF;
+  color: #100246;
+  font-size: 1.5vh;
+  border-radius: 1.25vh;
+  outline: none;
+  height: 5.5vh;
+  width: 100%;
+  padding: 1em 1em 0 1em;
+  font-weight: bold;
+}
+
+.write__container__form__block__text {
+  color: #100246;
+  font-size: 1.5vh;
+  font-weight: bold;
+}
+
+.write__container__form__block__checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 5.5vh;
+}
+
+.write__container__form__block__checkbox__text {
+  color: #A6ABBD;
+  font-size: 1.25vh;
+  margin-left: 1em;
+}
+
+.write__container__form__block__checkbox__text--link {
+  font-weight: bold;
+  color: #4C18AA;
+  margin-left: 0.5em;
+  cursor: pointer;
+}

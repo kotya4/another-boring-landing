@@ -1,3 +1,2 @@
-Тестовое задание "Ось 2",
+ТЗ: https://ilartech.com/blog/testovoe-zadanie-na-html-verstalshchik/
 
-Дивитаев Ришат

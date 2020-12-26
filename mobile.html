@@ -1,17 +1,15 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="www_ilar-desktop/css/index.css">
-  <link rel="stylesheet" type="text/css" href="www_ilar-desktop/css/main.css">
-  <link rel="stylesheet" type="text/css" href="www_ilar-desktop/css/call.css">
-  <link rel="stylesheet" type="text/css" href="www_ilar-desktop/css/write.css">
-  <title>ilar-desktop</title>
-  <script src="www_ilar-desktop/js/index.js"></script>
+  <link rel="stylesheet" type="text/css" href="www_ilar-mobile/css/index.css">
+  <link rel="stylesheet" type="text/css" href="www_ilar-mobile/css/main.css">
+  <link rel="stylesheet" type="text/css" href="www_ilar-mobile/css/call.css">
+  <link rel="stylesheet" type="text/css" href="www_ilar-mobile/css/write.css">
+  <title>ilar-mobile</title>
+  <script src="www_ilar-mobile/js/index.js"></script>
 </head>
 <body>
   <div class="write">
-    <div class="write__back"></div>
-
     <div class="write__container">
       <div class="write__container__hat">
         <div class="write__container__hat__text">
@@ -34,15 +32,7 @@
               <option value="2">Ибадан</option>
             </select>
           </div>
-          <input type="date" id="date" name="date" placeholder="Дата приема">
-          <div class="write__container__form__block__text">
-            контакты
-          </div>
-          <input type="text" id="name" name="name" placeholder="Имя">
-          <input type="submit" value="Записаться на прием">
-        </div>
 
-        <div class="write__container__form__block">
           <div class="write__container__form__block__select">
             <div class="write__container__form__block__select__title">
               Адрес клиники
@@ -53,6 +43,9 @@
               <option value="2">Ул. Колотушкина, 2С</option>
             </select>
           </div>
+
+          <div><input type="date" id="date" name="date" placeholder="Дата приема"></div>
+
           <div class="write__container__form__block__select">
             <div class="write__container__form__block__select__title write__container__form__block__select__title--bold">
               Время приема
@@ -64,19 +57,26 @@
               <option value="3">21:00</option>
             </select>
           </div>
-          <div class="write__container__form__block__text write__container__form__block__text--blank">
-            blank
+
+          <div class="write__container__form__block__text">
+            контакты
           </div>
-          <input type="date" id="birthday" name="birthday" placeholder="Дата рождения">
+
+          <div><input type="text" id="name" name="name" placeholder="Имя"></div>
+
+          <div><input type="date" id="birthday" name="birthday" placeholder="Дата рождения"></div>
+
           <div class="write__container__form__block__checkbox">
             <input type="checkbox" class="write__container__form__block__checkbox__input">
             <div class="write__container__form__block__checkbox__text">
               Согласен на обработку
-            </div>
-            <div class="write__container__form__block__checkbox__text write__container__form__block__checkbox__text--link">
-              персональных данных
+              <span class="write__container__form__block__checkbox__text write__container__form__block__checkbox__text--link">
+                персональных данных
+              </span>
             </div>
           </div>
+
+          <div><input type="submit" value="Записаться на прием"></div>
         </div>
       </form>
     </div>
@@ -85,18 +85,24 @@
   <div class="call">
     <div class="call__hat">
       <div class="call__hat__title"></div>
-      <div class="call__hat__menu">
-        <div class="call__hat__menu__enter">
-          <div class="call__hat__menu__enter__icon"></div>
-          <div class="call__hat__menu__enter__text">
-            Войти
-          </div>
+      <div class="call__hat__button-write">
+        Онлайн запись
+      </div>
+      <div class="call__hat__button-close">
+        <div class="call__hat__button-close__icon"></div>
+      </div>
+    </div>
+    <div class="call__hat call__hat--lower">
+      <div class="call__hat--lower__place">
+        <div class="call__hat--lower__place__icon"></div>
+        <div class="call__hat--lower__place__text">
+          Казань
         </div>
-        <div class="call__hat__menu__button-write">
-          Онлайн запись
-        </div>
-        <div class="call__hat__menu__button-close">
-          <div class="call__hat__menu__button-close__icon"></div>
+      </div>
+      <div class="call__hat--lower__enter">
+        <div class="call__hat--lower__enter__icon"></div>
+        <div class="call__hat--lower__enter__text">
+          Войти
         </div>
       </div>
     </div>
@@ -110,7 +116,7 @@
         <div class="call__body__content-left__link">
           Контакты
         </div>
-        <div class="call__body__content-left__line"></div>
+
         <div class="call__body__content-left__link call__body__content-left__link--small">
           Политика конфиденциальности
         </div>
@@ -124,9 +130,15 @@
           <div>Ул. Айвазовского, 3А,<br>Казань, Респ. Татарстан, 420073</div>
         </div>
         <div class="call__body__content-right__icons">
-          <div class="call__body__content-right__icons__icon call__body__content-right__icons__icon--vk"></div>
-          <div class="call__body__content-right__icons__icon call__body__content-right__icons__icon--insta"></div>
-          <div class="call__body__content-right__icons__icon call__body__content-right__icons__icon--youtube"></div>
+          <div class="call__body__content-right__icons__icon">
+            <div class="call__body__content-right__icons__icon__vk"></div>
+          </div>
+          <div class="call__body__content-right__icons__icon">
+            <div class="call__body__content-right__icons__icon__insta"></div>
+          </div>
+          <div class="call__body__content-right__icons__icon">
+            <div class="call__body__content-right__icons__icon__youtube"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -134,6 +146,22 @@
 
   <div class="main">
     <div class="main__screen main__screen-0">
+      <div class="main__screen-0__head">
+        <div class="main__screen-0__head__text"></div>
+        <div class="main__screen-0__head__phone">
+          <div class="main__screen-0__head__phone__icon"></div>
+          <div class="main__screen-0__head__phone__text">
+            8 800 500 66 74
+          </div>
+        </div>
+        <div class="main__screen-0__head__button">
+          <div class="main__screen-0__head__button__icon">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
       <div class="main__screen-0__container">
         <div class="main__screen-0__container__content">
           <div class="main__screen-0__container__content__color"></div>
@@ -149,9 +177,11 @@
             <div class="main__screen-0__container__content__buttons__button">
               ПОЗВОНИТЬ
             </div>
-            <div class="main__screen-0__container__content__buttons__icon"></div>
-            <div class="main__screen-0__container__content__buttons__text">
-              Стоимость услуги: 1499 рублей
+            <div class="main__screen-0__container__content__buttons__text-container">
+              <div class="main__screen-0__container__content__buttons__icon"></div>
+              <div class="main__screen-0__container__content__buttons__text">
+                Стоимость услуги: 1499 рублей
+              </div>
             </div>
           </div>
         </div>
@@ -219,63 +249,57 @@
 
         <div class="main__screen-3__container__content__data">
           <div class="main__screen-3__container__image main__screen-3__container__image--cat-1"></div>
-          <div class="main__screen-3__container__content__data__content">
-            <div class="main__screen-3__container__content__data__text--head">
-              Reprehenderit In
-            </div>
-            <div class="main__screen-3__container__content__data__text--desc">
-              Exercitation ullamco
-            </div>
-            <div class="main__screen-3__container__content__data__text--body">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.
-            </div>
-            <div class="main__screen-3__container__content__data__instagram">
-              <div class="main__screen-3__container__content__data__instagram__icon"></div>
-              <div class="main__screen-3__container__content__data__instagram__text">
-                ПЕРЕЙТИ В ИНСТАГРАМ
-              </div>
+          <div class="main__screen-3__container__content__data__text--head">
+            Reprehenderit In
+          </div>
+          <div class="main__screen-3__container__content__data__text--desc">
+            Exercitation ullamco
+          </div>
+          <div class="main__screen-3__container__content__data__text--body">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.
+          </div>
+          <div class="main__screen-3__container__content__data__instagram">
+            <div class="main__screen-3__container__content__data__instagram__icon"></div>
+            <div class="main__screen-3__container__content__data__instagram__text">
+              ПЕРЕЙТИ В ИНСТАГРАМ
             </div>
           </div>
         </div>
 
         <div class="main__screen-3__container__content__data">
           <div class="main__screen-3__container__image main__screen-3__container__image--cat-2"></div>
-          <div class="main__screen-3__container__content__data__content">
-            <div class="main__screen-3__container__content__data__text--head">
-              Magna Aliqua
-            </div>
-            <div class="main__screen-3__container__content__data__text--desc">
-              Fugiat nulla
-            </div>
-            <div class="main__screen-3__container__content__data__text--body">
-              Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-            </div>
-            <div class="main__screen-3__container__content__data__instagram">
-              <div class="main__screen-3__container__content__data__instagram__icon"></div>
-              <div class="main__screen-3__container__content__data__instagram__text">
-                ПЕРЕЙТИ В ИНСТАГРАМ
-              </div>
+          <div class="main__screen-3__container__content__data__text--head">
+            Magna Aliqua
+          </div>
+          <div class="main__screen-3__container__content__data__text--desc">
+            Fugiat nulla
+          </div>
+          <div class="main__screen-3__container__content__data__text--body">
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+          </div>
+          <div class="main__screen-3__container__content__data__instagram">
+            <div class="main__screen-3__container__content__data__instagram__icon"></div>
+            <div class="main__screen-3__container__content__data__instagram__text">
+              ПЕРЕЙТИ В ИНСТАГРАМ
             </div>
           </div>
         </div>
 
         <div class="main__screen-3__container__content__data">
           <div class="main__screen-3__container__image"></div>
-          <div class="main__screen-3__container__content__data__content">
-            <div class="main__screen-3__container__content__data__text--head">
-              Элвин Грей
-            </div>
-            <div class="main__screen-3__container__content__data__text--desc">
-              Российский певец
-            </div>
-            <div class="main__screen-3__container__content__data__text--body">
-              Решил пройти генетический тест в компании Dentsy. Таким образом можно узнать о предрасположенности к различным заболеваниям. Я намерен услышать вердикт «идеально здоров». Однако, посмотрим.
-            </div>
-            <div class="main__screen-3__container__content__data__instagram">
-              <div class="main__screen-3__container__content__data__instagram__icon"></div>
-              <div class="main__screen-3__container__content__data__instagram__text">
-                ПЕРЕЙТИ В ИНСТАГРАМ
-              </div>
+          <div class="main__screen-3__container__content__data__text--head">
+            Элвин Грей
+          </div>
+          <div class="main__screen-3__container__content__data__text--desc">
+            Российский певец
+          </div>
+          <div class="main__screen-3__container__content__data__text--body">
+            Решил пройти генетический тест в компании Dentsy. Таким образом можно узнать о предрасположенности к различным заболеваниям. Я намерен услышать вердикт «идеально здоров». Однако, посмотрим.
+          </div>
+          <div class="main__screen-3__container__content__data__instagram">
+            <div class="main__screen-3__container__content__data__instagram__icon"></div>
+            <div class="main__screen-3__container__content__data__instagram__text">
+              ПЕРЕЙТИ В ИНСТАГРАМ
             </div>
           </div>
         </div>
@@ -454,6 +478,66 @@
         8 800 500 66 74
       </div>
     </div>
+
+    <div class="main__screen main__screen-7">
+      <div class="main__screen-7__head">
+        <div class="main__screen-7__head__icon"></div>
+        <div class="main__screen-7__head__text"></div>
+      </div>
+      <div class="main__screen-7__head-desc">
+        искусственный интеллект в 3D диагностике зубов
+      </div>
+      <div class="main__screen-7__link">
+        Блог
+      </div>
+      <div class="main__screen-7__link">
+        Контакты
+      </div>
+      <div class="main__screen-7__button">
+        Онлайн запись
+      </div>
+      <div class="main__screen-7__separator"></div>
+      <div class="main__screen-7__text main__screen-7__text--offset">
+        Dentsy — информационный сервис, транспортные услуги оказываются перевозчиками.
+      </div>
+      <div class="main__screen-7__text">
+        Адрес:
+      </div>
+      <div class="main__screen-7__text main__screen-7__text--bold">
+        Ул. Айвазовского, 3А,
+        <br>
+        Казань, Респ. Татарстан, 420073
+      </div>
+      <div class="main__screen-7__text">
+        Мы в соц. cетях:
+      </div>
+      <div class="main__screen-7__icons">
+        <div class="main__screen-7__icons__icon">
+          <div class="main__screen-7__icons__icon__image main__screen-7__icons__icon__image--vk"></div>
+        </div>
+        <div class="main__screen-7__icons__icon">
+          <div class="main__screen-7__icons__icon__image main__screen-7__icons__icon__image--insta"></div>
+        </div>
+        <div class="main__screen-7__icons__icon">
+          <div class="main__screen-7__icons__icon__image main__screen-7__icons__icon__image--youtube"></div>
+        </div>
+      </div>
+      <div class="main__screen-7__text main__screen-7__text--bold">
+        Политика конфиденциальности
+      </div>
+      <div class="main__screen-7__text main__screen-7__text--offset">
+        © 2009-2020, ООО «Dentsy»
+      </div>
+      <div class="main__screen-7__text-container">
+        <div class="main__screen-7__text-container__text">
+          Сайт разработан в
+        </div>
+        <div class="main__screen-7__text-container__text main__screen-7__text-container__text--bold">
+          «ILAR PRO»
+        </div>
+      </div>
+    </div>
+
   </div>
 </body>
 </html>
